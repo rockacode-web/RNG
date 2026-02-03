@@ -1,3 +1,10 @@
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load backend/.env explicitly
+ENV_PATH = Path(__file__).resolve().parents[1] / ".env"
+load_dotenv(ENV_PATH)
 
 from os import  environ
 from os.path import  abspath, dirname 

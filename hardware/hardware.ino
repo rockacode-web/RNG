@@ -305,14 +305,14 @@ void Display(unsigned char number){
     {1,1,1,0,0,0,0}, //7
     {1,1,1,1,1,1,1}, //8
     {1,1,1,1,0,1,1}, //9
-  }
+  };
   digitalWrite(a, sevenSegDigits[number][0]);
   digitalWrite(b, sevenSegDigits[number][1]);
-  digitalWrite(b, sevenSegDigits[number][2]);
-  digitalWrite(b, sevenSegDigits[number][3]);
-  digitalWrite(b, sevenSegDigits[number][4]);
-  digitalWrite(b, sevenSegDigits[number][5]);
-  digitalWrite(b, sevenSegDigits[number][6]);
+  digitalWrite(c, sevenSegDigits[number][2]);
+  digitalWrite(d, sevenSegDigits[number][3]);
+  digitalWrite(e, sevenSegDigits[number][4]);
+  digitalWrite(f, sevenSegDigits[number][5]);
+  digitalWrite(g, sevenSegDigits[number][6]);
   
 }
 
